@@ -48,6 +48,14 @@ describe("Fizzbuzz", function() {
       expect(fizzbuzz.play(5)).toEqual('Buzz');
     });
 
+    it('"FizzBuzz" if a number is divisible by 15', function(){
+      expect(fizzbuzz.play(15)).toEqual('FizzBuzz');
+    });
+
+    it('the number, if not divisible by 3, 5 or 15', function() {
+      expect(fizzbuzz.play(1)).toEqual(1);
+    });
+
   });
 
 });
