@@ -1,3 +1,1 @@
-function Fizzbuzz() {
-
-};
+function Fizzbuzz() {};
